@@ -6,3 +6,4 @@ output: html_document
 ---
 
 Guest lecture on Mon Oct 16
+nyc git ande github
