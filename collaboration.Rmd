@@ -7,3 +7,58 @@ output: html_document
 
 Guest lecture on Mon Oct 16
 nyc git ande github
+
+Example
+In the following, I’m skipping past some important set-up steps. To follow along, you’ll first need to install relevant software (Git and a Git Client – I use Sourcetree), connected Git with RStudio, and created a GitHub account. Instructions for doing all that can be found in Chapters 4-9 of this book by Jenny Bryan (note – all the rest of those chapters are also great).
+
+For this example, I’m going to re-do the example from What is Data Science: Part II, starting from this outline.
+
+New workflow
+
+The last time we talked about a good workflow was in writing with data; we’d introduced R Projects and R Markdown, and focused on working as a lone analyst. We’re shifting version control using git; this is useful by itself, and also a popular approach to collaboration. Our new workflow will be:
+
+Create a directory with a reasonable name and path (e.g. ~/Documents/School/DSI/Homework_2/)
+Put an R Project in the directory
+Turn on version control for the project using git
+Add the directory to your git client (and, optionally, create remote repository)
+Keep everything related to the analysis – data inputs, scripts, reports, output – in the directory, and use R Markdown as much as possible
+Keep track of changes using version control
+Periodically check for reproducibility of the analysis
+The bold steps are new.
+
+To turn on version control in an R Project through R Studio, use Tools > Version Control > Project setup.
+
+
+
+Select Git.
+
+
+
+Once you’ve done this, a few things will happen. Most obviously, you now have a .gitignore file in your project; by default, this will ignore .Rproj.user, .Rhistory, .RData, and .Ruserdata. You can add other things to be ignored if you want. Less obviously, git is now watching your directory and will keep track of changes across versions of your work.
+
+Next I’ll add the R Project to my git client. You can at this stage also create a remote repository, but I’ll hold off for a while.
+
+
+
+You don’t have to initialize git through RStudio; you could use your git client. I prefer to do it this way because RStudio will create a useful .gitignore file in your directory. You also don’t have to add your directory to your git client – RStudio has a bare-bones client built in, and I often use this for short-term projects.
+
+Commit to git
+
+At this point, I haven’t done much “work” – I’ve created a directory, launched a project, initialized a git repo, and added it to my client. Although I haven’t really done much yet, I’m going to make an initial commit for the project, sort of as a starting point.
+
+
+
+Now I’ll start actually doing stuff. As I noted above, I’m going to repeat the analysis we did in What is Data Science: Part II – my goal is to focus on the git side of things without distractions from new code. As a first step, I’ll add the outline of the analysis and commit.
+
+
+
+Next I’ll add my data file and commit.
+
+
+
+Next I’ll add a code chunk doing the data cleaning. And commit.
+
+
+
+How frequently you commit is, to some extent, a matter of taste. Roughly speaking, I commit after changes that are big enough to that I’d want a reminder about them in six months. Also, after a while, committing becomes almost second-nature (or at least isn’t something that takes a lot of time or energy) and that makes it easier to commit often.
+
