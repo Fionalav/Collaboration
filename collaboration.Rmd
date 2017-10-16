@@ -1,0 +1,8 @@
+---
+title: "collaboration"
+author: "Yulan Zhang"
+date: "October 11, 2017"
+output: html_document
+---
+
+Guest lecture on Mon Oct 16
