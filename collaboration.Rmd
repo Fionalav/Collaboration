@@ -7,6 +7,9 @@ output: html_document
 
 Guest lecture on Mon Oct 16
 nyc git ande github
+######47min for collaboration
+##cannot push
+##error : Publickey.... remote repository....
 
 Example
 In the following, I’m skipping past some important set-up steps. To follow along, you’ll first need to install relevant software (Git and a Git Client – I use Sourcetree), connected Git with RStudio, and created a GitHub account. Instructions for doing all that can be found in Chapters 4-9 of this book by Jenny Bryan (note – all the rest of those chapters are also great).
