@@ -1,0 +1,21 @@
+---
+title: "Holy cow!"
+---
+
+### I have a webpage!
+
+And I can put all kinds of stuff on it!
+site navigation. site.yml
+font awesome
+
+
+#have a hyperlink, use full link for outsid website
+[google](https://www.google.com)
+#link in the folder use short link
+[about](about.html)
+if it already exists in the folder
+
+#here is an image
+
+<img src="images/image.jpg" style="width:75%">
+
