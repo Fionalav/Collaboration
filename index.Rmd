@@ -25,4 +25,7 @@ connect to git hub 1:38pm
 use the new_collab folder to push to github
 
 
+rename new_collab to Collaboration online, delete testing folders on Github
+
+
 
