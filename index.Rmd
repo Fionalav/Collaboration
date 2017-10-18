@@ -27,5 +27,6 @@ use the new_collab folder to push to github
 
 rename new_collab to Collaboration online, delete testing folders on Github
 
+the html not changing even though the push button is working
 
 
