@@ -22,5 +22,7 @@ if it already exists in the folder
 
 connect to git hub 1:38pm
 
+use the new_collab folder to push to github
+
 
 
